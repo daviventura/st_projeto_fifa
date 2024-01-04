@@ -24,3 +24,6 @@ st.markdown(
     desempenho, avaliação de mercado, análise de clubes, posicionamento de jogadores e 
     desenvolvimento do jogador ao longo do tempo.'''
 )
+
+df_data=pd.read_csv('CLEAN_FIFA23_official_data.csv')
+df_data
