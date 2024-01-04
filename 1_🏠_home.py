@@ -4,11 +4,11 @@ import webbrowser
 from datetime import datetime
 
 st.markdown('# FIFA 2023 OFICIAL DATASET ⚽')
-st.sidebar.markdown('Dados disponíveis no [Kaggle](https://www.kaggle.com/datasets/abecklas/fifa-world-cup)')
+st.sidebar.markdown('Dados disponíveis no [Kaggle](https://www.youtube.com/)')
 
 btn=st.button('Acesse os dados no Kaggle',type='secondary')
 if btn:
-    webbrowser.open_new_tab('https://www.kaggle.com/datasets/abecklas/fifa-world-cup')
+    webbrowser.open_new_tab('https://www.youtube.com/')
 
 st.markdown(
     ''' O conjunto de dados
