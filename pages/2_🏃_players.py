@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import time
 
 st.set_page_config(
@@ -6,7 +7,7 @@ st.set_page_config(
     page_title='FIFA'
 )
 
-df_data=st.session_state['data']
+df_data=pd.read_csv('../datasets/CLEAN_FIFA23_official_data.csv',index_col=0)
 
 clubes=df_data['Club'].unique()
 club=st.sidebar.selectbox('Clube',clubes)
